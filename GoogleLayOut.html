@@ -1,0 +1,154 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-01-09 10:05:09
+ * @LastEditTime : 2020-01-09 23:45:23
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \my-appc:\Users\yw4dh\GoogleLayOut\GoogleLayOut.html
+ -->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google</title>
+    <style type="text/css">
+        @import url(GoogleLayOut.css);
+    </style>
+</head>
+
+<body>
+<div style="position: relative;top: 16px;">    
+    <div id="AS">
+        <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+        <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>     
+    </div>
+
+
+    <div style="top:0;left:0;right:0;width:100%;">
+        
+        <div id="topleft"  >
+            <div id="GI">
+                <div id="Gmail">
+                    <a href="https://www.google.com/gmail/about/#"> Gmail</a>
+                </div>
+               
+                <div id="Image">
+                    <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl"> Image</a>
+                </div>     
+            </div>
+            
+             <div id="tool">
+                <div id="tools">
+                <a href="https://about.google/intl/en/products/?tab=wh&tip=weather">Tool</a>
+                </div>
+            </div>
+
+            <div id="login">
+                <a style=" font-weight: bold; color: ghostwhite;"href="https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign in</a>
+            </div>
+
+        </div> 
+    
+    </div>
+</div>
+
+    <div id="main">
+        <div id="image">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        
+         <div id="search">
+             <div id="shape" \>
+                <div id="logo">
+                    <span id="span">
+                        <svg  focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                    </span>
+                    
+                </div>
+                <div id="searchare">
+                <input  id="searchbar" type="text" style="width: 500px;border:none;outline:medium;" placeholder="what would you like yo research?">
+                </div> 
+                <div id="mac">
+                   
+                </div>
+             </div>
+
+        </div>
+
+
+        <div id="twobuttons">
+        <input type="submit"value="Google Search" style="width: 140px; text-align: center;height: 34px;  border-radius: 4px; background-color:#f2f2f2;color: #5F6368;" onclick="GoogleSearch()">
+        &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;
+        <input type="submit"value="I'm Feeling Lucky" style="width: 140px; text-align: center;height: 34px;  border-radius: 4px; background-color:#f2f2f2;color: #5F6368;" onclick="GoogleSearch()"> 
+          <script>
+            function GoogleSearch(){
+                var content=document.getElementById("searchbar")
+                alert(searchbar.value)
+            }
+        </script>   
+        </div>
+
+            
+    </div>
+
+    <div id="bottom">
+        <div id="bottomleft">
+            <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" style="color: black;">Advertising</a>
+            &nbsp;
+            &nbsp;
+            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"style="color: black;">Business</a>
+            &nbsp;
+            &nbsp;
+            <a href="https://www.google.com/search/howsearchworks/?fg=1"style="color: black;">How search works</a>
+        </div>
+
+        <div id="bottomright">
+            <a href="https://policies.google.com/privacy?fg=1" style="color: black;">Privacy</a>
+            &nbsp;
+            &nbsp;
+            <a href="https://policies.google.com/terms?fg=1"style="color: black;">Terms</a>
+            &nbsp;
+            &nbsp;
+
+        </div>
+
+        <div id="setting">
+            <input onclick="options()" type="button" value="Setting" style="border: none;"> 
+         </div>
+    </div>     
+         <div id="settingoptions" style="display:none ;">
+            <a href="https://www.google.com/preferences?hl=en&amp;fg=1" role="menuitem">Search settings</a>
+            <a href="/advanced_search?hl=en&amp;fg=1" role="menuitem">Advanced search</a>
+            <a href="/history/privacyadvisor/search/unauth?utm_source=googlemenu&amp;fg=1" role="menuitem">Your data in Search</a>
+            <a href="/history/optout?hl=en&amp;fg=1" role="menuitem">History</a>
+            <a href="//support.google.com/websearch/?p=ws_results_help&amp;hl=en&amp;fg=1" role="menuitem">Search Help</a>
+            <a data-bucket="websearch" role="menuitem" id="dk2qOd" target="_blank" jsaction="gf.sf" data-ved="0ahUKEwjt4qil1vfmAhWjwVkKHQ-7AwoQLggU">Send feedback</a>      
+         </div>
+
+
+     
+        <script>
+            function options()
+            {
+                var oSub = document.getElementById("settingoptions");
+        
+                var sty=oSub.style.display;
+              
+              if(sty =="block")
+              {
+                oSub.style.display="none";
+              }
+              else{
+                oSub.style.display="block";
+              }
+                
+            }
+        </script>
+    
+
+    </div>
+    
+</body>
+</html>
